@@ -1,8 +1,3 @@
-// GOAL: Prevent explosion of timers - unwieldy, unmanagable.
-// GOAL: Durability. Application restart shouldn't reset timers.
-// GOAL: Can we do without storage to keep track of retry state.
-// GOAL: Keep things in memory.
-
 const redis = require('redis');
 const redisClient = redis.createClient();
 const debug = require('debug')('app:retry-manager');
