@@ -5,7 +5,7 @@
 ## Setup
 
 ```shell
-$ npm install
+$ yarn install
 $ DEBUG=app:*
 $ node retry-manager.js
 $ node worker.js
